@@ -1,0 +1,119 @@
+* {margin: 0; padding: 0; }
+
+body {
+	border: 1px solid black;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Architects Daughter', cursive;
+	}
+
+header {
+	border: 1px solid black;
+    width: 91.86361706036745%;
+    overflow: hidden;
+	background-color: #fbfbfb;
+	font-family: 'Architects Daughter', cursive;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	}
+	header img {
+	margin-right: 1.968503937007874%;
+	float: right;	
+}
+	 li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 9%;
+    padding-left: 7%;
+	
+}
+
+	header li a {
+	text-decoration: none;
+	
+}
+#menu1 {
+	border: 1px solid black;
+	width:  91.86361706036745%;
+	margin: 1.968503937007874%;
+	margin-bottom: 0%;
+	padding:1.968503937007874%;
+	background-color: #fbfbfb;
+	}
+
+	
+main {
+	border:1px solid black;
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	background-color: #fbfbfb;
+}
+video{
+	width:100%;
+}	
+
+main section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}	
+main h1 {
+	text-align: center;
+	color: #ab4493;
+}	
+h3 {
+	text-align: center;
+}
+main div {
+	text-align:center;
+	
+	
+}
+button{
+	border-radius: 9%;
+}
+
+#textua{
+	text-align: center;
+	
+}
+
+
+footer {
+	border: 1px solid black; 
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	background-color: #fbfbfb;
+	
+	}
+#menu2 {
+	display:none;
+}
+@media only screen and (max-width: 767px)
+{
+    main img {
+        width: auto;
+    }
+	
+	main {
+		width: auto;
+	}
+	video{
+		width: 100%;
+		height: auto;
+	}
+	button{
+		width: auto;
+		
+	}
+	#menu1 {
+		display: none;
+	}
+	#menu2 {
+		display: block;
+	}
+}
+		

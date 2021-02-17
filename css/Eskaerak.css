@@ -1,0 +1,165 @@
+* {margin: 0; padding: 0; }
+
+body {
+	border: 1px solid black;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Architects Daughter', cursive;
+	
+	
+	}
+
+header {
+	border: 1px solid black;
+    width: 91.86361706036745%;
+    overflow: hidden;
+	background-color: white;
+	font-family: 'Architects Daughter', cursive;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	background-color: #fbfbfb;
+	}
+	header img{
+      
+		margin-right: 1.968503937007874%;
+		float: right;
+	
+}
+	 li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 9%;
+    padding-left: 7%;
+	
+	
+}
+
+	header li a {
+	text-decoration: none;
+	
+}
+#menu1 {
+	border: 1px solid black;
+	width:  91.86361706036745%;
+	margin: 1.968503937007874%;
+	margin-bottom: 0%;
+	padding:1.968503937007874%;
+	background-color: #fbfbfb;
+	}
+
+	
+main {
+	border:1px solid black;
+	width: 91.86361706036745%;;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	background-color: #fbfbfb;
+    
+}	
+h2{
+	color: #ab4493;
+}	
+main section{
+	display: grid;
+	/*grid-template: repeat(2,auto) / repeat(12,1fr);*/
+	grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	row-gap:15px;
+	column-gap: 15px;
+	text-align:start;
+}
+#komunismo{
+	border-radius: 10%;
+	grid-row: 1/2;
+	grid-column: 3/span 3;
+}
+#gaztelu{
+	grid-row: 1/2;
+	grid-column: 7/span 3;
+}
+#garagardo{
+	grid-row: 2/3;
+	grid-column: 3/span 3;
+}
+#kutna{
+	grid-row: 2/3;
+	grid-column: 7/span 3;
+}
+#terezin{
+	grid-row: 3/4;
+	grid-column: 3/span 3;
+}
+#freetour{
+	grid-row: 3/4;
+	grid-column: 7/span 3;
+}
+
+main h3{
+	text-align: center;
+	
+}
+
+#titulo{
+	width: 20%;
+	display: flex;
+    margin-left: 45%;
+    object-fit: cover;
+}
+
+.gehitu {
+	border-color: grey;
+	border-radius: 8%;	
+	
+
+}
+footer {
+	border: 1px solid black; 
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	display: inline-block;
+	background-color: #fbfbfb;
+	}
+#menu2 {
+		display:  none;
+	}
+@media only screen and (max-width: 767px){
+	main section{
+		grid-template: repeat(10,auto)/1fr;
+	}
+	#komunismo{
+		grid-row: 1/2;
+		grid-column: 1/2;
+	}
+	#gaztelu{
+		grid-row: 2/3;
+		grid-column: 1/2;
+	}
+	#garagardo{
+		grid-row: 3/4;
+		grid-column: 1/2;
+	}
+	#kutna{
+		grid-row: 4/5;
+		grid-column: 1/2;
+	}
+	#terezin{
+		grid-row: 5/6;
+		grid-column: 1/2;
+	}
+	#freetour{
+		grid-row: 6/7;
+		grid-column: 1/2;
+	}
+	
+	#menu1 {
+		display: none;
+	}
+	#menu2 {
+		display: block;
+	}
+
+}						
+				
+						
+						
+						

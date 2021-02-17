@@ -1,0 +1,120 @@
+* {margin: 0; padding: 0; }
+
+body {
+	border: 1px solid black;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Architects Daughter', cursive;
+	
+	}
+
+header {
+	border: 1px solid black;
+	overflow: hidden;
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	font-family: 'Architects Daughter', cursive;
+	background-color: #fbfbfb;
+	}
+	header img{
+		margin-right: 1.968503937007874%;
+		float: right;
+	
+}
+	li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 9%;
+    padding-left: 7%;
+	
+	font-family: 'Architects Daughter', cursive;
+}
+
+	header li a {
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+}
+#menu1 {
+	border: 1px solid black;
+	width:  91.86361706036745%;
+	margin: 1.968503937007874%;
+	margin-bottom: 0%;
+	padding:1.968503937007874%;
+	font-family: 'Architects Daughter', cursive;
+	background-color: #fbfbfb;
+	}
+
+	
+main {
+	border: solid black 1px;
+	width: 91.86361706036745%;;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	font-family: 'Architects Daughter', cursive;
+	background-color: #fbfbfb;
+	display: grid;
+		/*grid-template: repeat(2,auto) / repeat(12,1fr);*/
+		grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		row-gap:15px;
+		column-gap: 15px;
+	
+	}
+	h3{
+		color: #ab4493;
+	}
+section{
+	grid-row: 1/2;
+	grid-column: 1/span 5;
+}
+aside{
+	grid-row: 1/2;
+	grid-column: 8/span 6;
+}
+	
+#argazki {
+	border-radius: 65%;
+	
+}		
+footer {
+	border: 1px solid black; 
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	font-family: 'Architects Daughter', cursive;
+	background-color: #fbfbfb;
+	}
+
+#menu2{
+	display:none;
+}
+@media only screen and (max-width: 767px)
+{						
+	main {
+		grid-template: repeat(12,auto)/1fr;
+	}
+
+	section{
+		width: auto;
+		grid-row: 1/2;
+		grid-column: 1/2;
+	}
+	aside{
+		width: auto;
+		grid-row: 2/2;
+		grid-column: 1/2;
+	}
+	#argazki{
+		width: 400px;
+	}
+	#menu1 {
+		display: none;
+	}			
+	#menu2 {
+		display: block;
+	}
+}							
+				
+						
+						
+						

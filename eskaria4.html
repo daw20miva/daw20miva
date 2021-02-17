@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Eskaria</title>
+		<link rel="stylesheet" href="css/eskaria4.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo_favicon.png" >
+        <link rel="stylesheet" href="css/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+					$('#menu1').slicknav({prependTo:"#menu2"});
+				});
+			</script>
+        <style>
+			a {
+				text-decoration: none;
+			}
+		</style>
+	</head>
+		<body>
+			<header>
+                <a href="carrito.html">Saskia</a>
+				<img  src="img/logoa1.png" alt="logo">
+			</header>
+			<nav id="menu1">
+				<ul> 
+					<li><a href="index.html">HASIERA</a></li>
+					<li><a href="Norgara.html">GURI BURUZ</a></li>
+					<li><a href="Helmugak.html">HELMUGAK</a></li>
+					<li><a href="Kontaktua.html">KONTAKTUA</a></li>
+				</ul>
+			</nav>
+            <nav id="menu2"></nav>
+			<main>
+                <div><h1>Eskaria</h1></div>
+                <div><h3>Ordainketa mota</h3></div>
+                <table>
+                    <tr>
+                            <td>Mota:</td>
+                            <td><select name="select">
+                                <option value="value1">Visa</option>
+                                <option value="value2" >MasterCard</option>
+                                <option value="value3">Maestro</option>
+                            </td></select>
+                    </tr>
+                    <tr>
+                            <td>Titularra:</td>
+                            <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                            <td>Zenbakia:</td>
+                            <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Iraungitze-data(hh/uu):</td>
+                        <td>
+                            <select name="select">
+                                <option value="value1">1</option>
+                                <option value="value2" >2</option>
+                                <option value="value3">3</option>
+                                <option value="value4">4</option>
+                                <option value="value5">5</option>
+                                <option value="value6">6</option>
+                                <option value="value7" >7</option>
+                                <option value="value8">8</option>
+                                <option value="value9">9</option>
+                                <option value="value10">10</option>
+                                <option value="value11">11</option>
+                                <option value="value12">12</option>
+                            </select>
+                            <select name="select2">
+                                <option value="value1">2021</option>
+                                <option value="value2" >2022</option>
+                                <option value="value3">2023</option>
+                                <option value="value4">2024</option>
+                                <option value="value5">2025</option>
+                                <option value="value6">2026</option>
+                                <option value="value7" >2027</option>
+                                <option value="value8">2028</option>
+                                <option value="value9">2029</option>
+                                <option value="value10">2030</option>
+                                <option value="value11">2031</option>
+                                <option value="value12">2032</option>
+                            </select>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>CVC:</td>
+                        <td><input type="text" style="width: 40px; height: 15px"
+                            size=32  ></td>
+                    </tr>
+                           
+                
+                </table>
+                <br>
+                <button onclick="window.location.href='eskaria5.html'" a style="cursor:pointer"; name="eskaria5" id="hurrengoa">Eskaria Bidali</button>                            
+            </main>
+            <footer>
+                <p>&copy; 2020 Coronatravel</p>
+            </footer>
+                        
+        </body>
+ </html>

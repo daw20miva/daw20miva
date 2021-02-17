@@ -1,0 +1,189 @@
+* {margin: 0; padding: 0; }
+
+
+body {
+	border: 1px solid black;
+	width: 90%;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
+	}
+
+header {
+	border: 1px solid black;
+    width: 91.86361706036745%;
+    overflow: hidden;
+	margin: 1.968503937007874%;
+    padding: 1.968503937007874%;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #fbfbfb;
+	
+	}
+	header img{
+      
+		margin-right: 1.968503937007874%;
+		float: right;
+	
+}
+	 li{
+	list-style-type: none;
+    display: inline;
+    margin-right: 9%;
+    padding-left: 7%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+	header li a {
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+}
+#menu1 {
+	border: 1px solid black;
+	width:  91.86361706036745%;
+	margin: 1.968503937007874%;
+	margin-bottom: 0%;
+    padding:1.968503937007874%;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #fbfbfb;
+	}
+
+	
+ main {
+    border:1px solid black;
+    width: 91.86361706036745%;;
+    margin: 1.968503937007874%;
+    padding: 1.968503937007874%;    
+    background-color: #fbfbfb;
+    font-family: 'Architects Daughter', cursive;
+    }	
+.contact_form{
+    width: 40%;
+    height: auto;
+    margin:  auto;
+    background-color: #fbfbfb;
+    font-family: 'Architects Daughter', cursive;
+}	
+input{
+    background-color: #fbfbfb;
+    width: 40.80%;
+    height: 40%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    font-family: 'Architects Daughter', cursive;
+}
+textarea{
+    background-color: #fbfbfb;
+    width: 40.50%;
+    height: 15%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    padding-top: 2%;
+    font-family: 'Architects Daughter', cursive;
+}
+label{
+    display: block;
+    float: center;
+    font-family: 'Architects Daughter', cursive;
+}
+button{
+    height: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    text-transform: uppercase;
+    background-color: dimgrey;
+    border-style: solid;
+    border-radius: 10%;
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+
+}
+button p{
+    color: #fff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+span{
+    color: #ab4493;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.abisua{
+    font-size: 90%;
+    color: #0e0e0e;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1{
+    font-size: 100%;
+    text-align: left;
+    padding-bottom: 10%;
+    color: #ab4493;
+    font-family: 'Architects Daughter', cursive;
+}
+h3{
+    font-size: 90%;
+    padding-bottom: 9%;
+    color: #0e0e0e;
+    font-family: 'Architects Daughter', cursive;
+}
+p{
+    font-size: 90%;
+    color:#0e0e0e;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.formularioa input:focus{
+    outline: 0;
+    border: 1px solid #97d848;
+    font-family: 'Architects Daughter', cursive;
+}
+.formularioa textarea:focus{
+    outline: 0;
+    border: 1px solid #97d848;
+    font-family: 'Architects Daughter', cursive;
+}
+
+footer {
+	border: 1px solid black; 
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+    display: inline-block;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #fbfbfb;
+}
+#menu2{
+    display: none;
+}
+@media only screen and (max-width: 767px)
+{						
+	main {
+		width: auto;
+	}	
+	button{
+        width: auto;
+    }		
+	#menu1{
+    display: none;
+    }			
+    #menu2 {
+    display: block;
+    }
+}		
+						
+				
+						
+						
+						

@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Erosi</title>
+		<link rel="stylesheet" href="css/erosi.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo_favicon.png"  >
+		<link rel="stylesheet" href="css/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+					$('#menu1').slicknav({prependTo:"#menu2"});
+				});
+			</script>
+		<style>
+		
+			a {
+				text-decoration: none;
+			}
+		</style>
+	</head>
+		<body>
+			<header>
+				<a href="carrito.html">Saskia</a>
+				<img  src="img/logoa1.png" alt="logo">
+			</header>
+			<nav id="menu1">
+				<ul> 
+					<li><a href="index.html">HASIERA</a></li>
+					<li><a href="Norgara.html">GURI BURUZ</a></li>
+					<li><a href="Helmugak.html">HELMUGAK</a></li>
+					<li><a href="Kontaktua.html">KONTAKTUA</a></li>
+				</ul>
+			</nav>
+			<nav id="menu2"></nav>
+			<main>
+				
+				<div><h1>Saskia</h1></div>
+				<div><h3>Produktuak</h3></div>
+				<table>
+						<tr>
+								<th>Produktua</th>
+								<th>Prezioa</th>
+								<th>Kopurua</th>
+								<th>Guztira</th>
+								<th></th>
+						</tr>
+						<tr>
+								<td>Kutna Hora</td>
+								<td>25&euro;</td>
+								<td><input  name="kopuru" type="number" min=0 max=10 value="2"></td>
+								<td>50&euro;</td>
+								<td>
+									<input class="ezabatu" type="reset" name="Ezabatu" value="Ezabatu">
+								</td>					
+						</tr>
+						<tr>
+								<td>Free Tour</td>
+								<td>0&euro;</td>
+								<td><input  name="kopuru" type="number" min=0 max=10 value="3"></td>
+								<td>0&euro;</td>
+								<td>
+								<input class="ezabatu" type="reset" name="Ezabatu" value="Ezabatu">
+								</td>
+								
+						</tr>
+						<tr>
+								<td>Komunismoa</td>
+								<td>11&euro;</td>
+								<td><input  name="kopuru" type="number" min=0 max=10 value="4"></td>
+								<td>44&euro;</td>
+							    <td>
+									<input class="ezabatu" type="reset" name="Ezabatu" value="Ezabatu">
+								</td>
+						</tr>
+						
+						<tr>
+								<td></td>
+								<td></td>
+								<th>Guztira</th>
+								<td>94&euro;</td>
+						</tr>
+				</table>
+					
+					<button onclick="window.location.href='saskia1.html'" a style="cursor:pointer"; name="eskaria1" id="gehitu"><p>Eskaera egin</p></button>
+				
+			
+			</main>
+	 <footer>
+		<p>&copy; 2020 Coronatravel</p>
+	 </footer>
+				
+  </body>
+</html>

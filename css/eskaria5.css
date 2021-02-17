@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0; }
+
+body {
+	border: 1px solid black;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Architects Daughter', cursive;
+
+	}
+
+header {
+	border: 1px solid black;
+    width: 91.86361706036745%;
+    overflow: hidden;
+	font-family: 'Architects Daughter', cursive;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	background-color: #fbfbfb;
+	
+	}
+	header img{
+      
+		margin-right: 1.968503937007874%;
+		float: right;
+	
+}
+	 li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 9%;
+    padding-left: 7%;
+	
+}
+
+	header li a {
+	text-decoration: none;
+	
+}
+#menu1 {
+	border: 1px solid black;
+	width:  91.86361706036745%;
+	margin: 1.968503937007874%;
+	margin-bottom: 0%;
+	padding:1.968503937007874%;
+	background-color: #fbfbfb;
+	}
+
+	
+main {
+	border:1px solid black;
+	width: 91.86361706036745%;;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	background-color: #fbfbfb;
+    
+}	
+h1{
+	color: #ab4493;
+}	
+main button{
+	width: 10%;
+	padding: 0.5%;
+	margin-top: 2%;
+	background: dimgrey;
+	border-radius: 7%;
+	border: none;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+footer {
+	border: 1px solid black; 
+	width: 91.86361706036745%;
+	margin: 1.968503937007874%;
+	padding: 1.968503937007874%;
+	display: inline-block;
+	background-color: #fbfbfb;
+	
+	}
+
+
+#menu2 {
+	display:  none;
+}
+@media only screen and (max-width: 767px)
+{
+    main img {
+        width: 100 px;
+    }
+	#menu1 {
+		display: none;
+	}
+	#menu2 {
+		display: block;
+	}
+}

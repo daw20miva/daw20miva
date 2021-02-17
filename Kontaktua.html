@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Kontaktua</title>
+        <link rel="stylesheet" href="css/kontaktua.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo_favicon.png" >
+        <link rel="stylesheet" href="css/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+					$('#menu1').slicknav({prependTo:"#menu2"});
+				});
+			</script>
+        <style>
+			a {
+				text-decoration: none;
+			}
+		</style>
+    </head>
+    <body>
+        <header>
+            <a href="carrito.html">Saskia</a>
+            <img  src="img/logoa1.png" alt="logo">
+        </header>
+    </body>
+        <nav id="menu1">
+            <ul> 
+                <li><a href="index.html">HASIERA</a></li>
+                <li><a href="Norgara.html">GURI BURUZ</a></li>
+                <li><a href="Helmugak.html">HELMUGAK</a></li>
+                <li><a href="Kontaktua.html">KONTAKTUA</a></li>
+            </ul>
+        </nav>
+        <nav id="menu2"></nav>
+        <main>
+            <div class="contact_form">
+                <div class="formularioa">
+                     <h1>KONTAKTATZEKO FORMULARIOA</h1>
+                         <h3>Idatzi eta laster jarriko gara kontaktuan zurekin</h3>
+
+
+                            <form action="http://www.formular-chef.com/Formular-Chef.cgi" method="post">
+                            <input type="hidden" name="recipient" value="daw20miva@ikasle.leartik.eus">
+                            <p>
+                              <label for="izena"
+            class="Idatzi_zure_izena">Izena
+                        <span class="Derrigorrezkoa">*</span>
+                    </label>
+                    <input type="text"
+            name="sartu_izena" id="izena"
+            required="Derrigorrezkoa" placeholder="Idatzi zure izena">
+                                </p>
+
+                                <p>
+                                    <label for="e-maila"
+                        class="Idatzi_e-maila">E-maila
+                                    <span class="Derrigorrezkoa">*</span>
+                                </label>
+                                <input type="e-maila"
+                        name="sartu_e-maila" id="e-maila"
+                        required="Derrigorrezkoa" placeholder="Idatzi zure e-maila">
+                                </p>
+
+                                <p>
+                                <label for="Telefonoa"
+                    class="Idatzi_telefonoa">Telefonoa
+                                </label>
+                                <input type="tel"
+                    name="sartu_telefonoa" id="telefonoa"
+                    placeholder="Idatzi zure telefono zenbakia">
+                            </p>
+
+                            
+                            <p>
+                                <label for="mezua"
+                    class="Idatzi_mezua">Mezua
+                                <span class="derrigorrezkoa">*</span>
+                                </label>
+                                            <textarea 
+                    name="Idatzi_zure_mezua" class="textua:mezua"
+                    id="Mezua" required="derrigorrezkoa" placeholder="Utzi zure mezua hemen...."></textarea>
+                                </p>
+                        
+                                <button type="submit"
+                    name="formulario_bidali" id="Bidali"><p>Bidali</p>
+                    </button>
+
+                            <p class="abisua">
+                                <span class="derrigorrezkoa">*
+                                </span>Eremuak derrigorrezkoak dira.
+                            </p>
+                    </form>
+        </main>
+        <footer>
+            <p>&copy; 2020 Coronatravel</p>
+        </footer>
+            
+    </body>
+</html>
